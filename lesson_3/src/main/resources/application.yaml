@@ -1,0 +1,24 @@
+server:
+  port: 8189
+  servlet:
+    context-path: /market
+#  tomcat:
+#    accesslog:
+#      enabled: true
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+
+#logging:
+#  group:
+#    tomcat: "org.apache.catalina,org.apache.coyote,org.apache.tomcat"
+#  level:
+#    ru:
+#      igojig:
+#        lesson3: info
+#    tomcat: debug
+
+
+
+
