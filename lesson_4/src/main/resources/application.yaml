@@ -1,0 +1,10 @@
+server:
+  port: 8189
+  servlet:
+    context-path: /app
+
+spring:
+  output:
+    ansi:
+      enabled: ALWAYS
+
