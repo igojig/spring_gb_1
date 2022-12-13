@@ -2,9 +2,16 @@ server:
   port: 8189
   servlet:
     context-path: /app
+  tomcat:
+    accesslog:
+      enabled: true
 
 spring:
   output:
     ansi:
       enabled: ALWAYS
 
+logging:
+  level:
+    org.apache.tomcat: DEBUG
+    org.apache.catalina: DEBUG

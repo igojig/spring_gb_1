@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ru.igojig</groupId>
-  <artifactId>gb_quarter_3_part_1</artifactId>
+  <artifactId>lesson_1</artifactId>
   <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
 
-  <name>gb_quarter_3_part_1 Maven Webapp</name>
+  <name>lesson_1 Maven Webapp</name>
 
   <url>http://maven.apache.org</url>
 
