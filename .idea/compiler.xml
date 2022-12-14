@@ -9,6 +9,7 @@
         <module name="lesson4" />
         <module name="lesson_1" />
         <module name="lesson_2" />
+        <module name="lesson_5_hibernate_1" />
         <module name="lesson3" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="gb_quarter_3_part_1" target="17" />
       <module name="lesson_3" target="17" />
       <module name="lesson_4" target="17" />
+      <module name="lesson_5_hibernate" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
