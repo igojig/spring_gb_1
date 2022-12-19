@@ -1,10 +1,12 @@
 package ru.igojig.hibernate.dao;
 
 import org.hibernate.Session;
+import org.hibernate.annotations.Comment;
 import ru.igojig.hibernate.SessionUtil;
 import ru.igojig.hibernate.model.Product;
 
 import java.util.List;
+
 
 public class ProductDaoImpl implements ProductDao {
     @Override
