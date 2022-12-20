@@ -4,6 +4,7 @@ package ru.igojig.hibernate_2;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import ru.igojig.hibernate_2.config.Config;
 import ru.igojig.hibernate_2.entity.Customer;
+import ru.igojig.hibernate_2.entity.Order;
 import ru.igojig.hibernate_2.entity.Product;
 import ru.igojig.hibernate_2.services.CustomerService;
 import ru.igojig.hibernate_2.services.OrderService;
@@ -44,9 +45,9 @@ public class MainApp {
             System.out.println("============================");
 
             System.out.println("============================");
-            System.out.println("Find price for Customer#2 and Product#3");// 240
-            Integer price= orderService.getPriceByCustomerAndProduct(2L, 3L);
-            System.out.println(price);
+            System.out.println("Find price for Customer#2 and Product#3");// 240, 330
+            List<Order> orders= orderService.getPriceByCustomerAndProduct(2L, 3L);
+            System.out.println(orders);
             System.out.println("============================");
         }
         // autoclose context->close SessionFactory
